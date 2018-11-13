@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LSPlanetCollectionViewCell.h
 //  Planets Objc2
 //
 //  Created by Ilgar Ilyasov on 11/13/18.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface LSPlanetCollectionViewCell : UICollectionViewCell
 
 @end
 
+NS_ASSUME_NONNULL_END

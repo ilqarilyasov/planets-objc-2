@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82C7B3C2219B84180013ADB5 /* LSPlanetCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C7B3C1219B84180013ADB5 /* LSPlanetCollectionViewController.m */; };
+		82C7B3C6219B84320013ADB5 /* LSPlanetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C7B3C5219B84320013ADB5 /* LSPlanetCollectionViewCell.m */; };
+		82C7B3CA219B844B0013ADB5 /* LSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C7B3C9219B844B0013ADB5 /* LSSettingsViewController.m */; };
 		82CC081B219B7FDC008B78C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC081A219B7FDC008B78C7 /* AppDelegate.m */; };
-		82CC081E219B7FDC008B78C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC081D219B7FDC008B78C7 /* ViewController.m */; };
 		82CC0821219B7FDC008B78C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CC081F219B7FDC008B78C7 /* Main.storyboard */; };
 		82CC0823219B7FDD008B78C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CC0822219B7FDD008B78C7 /* Assets.xcassets */; };
 		82CC0826219B7FDD008B78C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CC0824219B7FDD008B78C7 /* LaunchScreen.storyboard */; };
 		82CC0829219B7FDD008B78C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC0828219B7FDD008B78C7 /* main.m */; };
+		82CC0832219B8025008B78C7 /* LSPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC0831219B8025008B78C7 /* LSPlanet.m */; };
+		82CC0836219B81A6008B78C7 /* LSPlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC0835219B81A6008B78C7 /* LSPlanetController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82C7B3C0219B84180013ADB5 /* LSPlanetCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPlanetCollectionViewController.h; sourceTree = "<group>"; };
+		82C7B3C1219B84180013ADB5 /* LSPlanetCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPlanetCollectionViewController.m; sourceTree = "<group>"; };
+		82C7B3C4219B84320013ADB5 /* LSPlanetCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPlanetCollectionViewCell.h; sourceTree = "<group>"; };
+		82C7B3C5219B84320013ADB5 /* LSPlanetCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPlanetCollectionViewCell.m; sourceTree = "<group>"; };
+		82C7B3C8219B844B0013ADB5 /* LSSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSSettingsViewController.h; sourceTree = "<group>"; };
+		82C7B3C9219B844B0013ADB5 /* LSSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSSettingsViewController.m; sourceTree = "<group>"; };
 		82CC0816219B7FDC008B78C7 /* Planets Objc2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planets Objc2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CC0819219B7FDC008B78C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82CC081A219B7FDC008B78C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		82CC081C219B7FDC008B78C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		82CC081D219B7FDC008B78C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		82CC0820219B7FDC008B78C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82CC0822219B7FDD008B78C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CC0825219B7FDD008B78C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82CC0827219B7FDD008B78C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82CC0828219B7FDD008B78C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82CC0830219B8025008B78C7 /* LSPlanet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPlanet.h; sourceTree = "<group>"; };
+		82CC0831219B8025008B78C7 /* LSPlanet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPlanet.m; sourceTree = "<group>"; };
+		82CC0834219B81A6008B78C7 /* LSPlanetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPlanetController.h; sourceTree = "<group>"; };
+		82CC0835219B81A6008B78C7 /* LSPlanetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPlanetController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,10 +51,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82C7B3C3219B841B0013ADB5 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82C7B3C0219B84180013ADB5 /* LSPlanetCollectionViewController.h */,
+				82C7B3C1219B84180013ADB5 /* LSPlanetCollectionViewController.m */,
+				82C7B3C8219B844B0013ADB5 /* LSSettingsViewController.h */,
+				82C7B3C9219B844B0013ADB5 /* LSSettingsViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		82C7B3C7219B84350013ADB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82C7B3C4219B84320013ADB5 /* LSPlanetCollectionViewCell.h */,
+				82C7B3C5219B84320013ADB5 /* LSPlanetCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		82CC080D219B7FDC008B78C7 = {
 			isa = PBXGroup;
 			children = (
 				82CC0818219B7FDC008B78C7 /* Planets Objc2 */,
+				82CC082F219B7FE8008B78C7 /* Resources */,
 				82CC0817219B7FDC008B78C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,17 +91,52 @@
 		82CC0818219B7FDC008B78C7 /* Planets Objc2 */ = {
 			isa = PBXGroup;
 			children = (
+				82CC0833219B8028008B78C7 /* Model */,
+				82CC0837219B81AA008B78C7 /* Model Controller */,
+				82C7B3C7219B84350013ADB5 /* View */,
+				82C7B3C3219B841B0013ADB5 /* View Controller */,
+				82CC0838219B8329008B78C7 /* Storyboard */,
+			);
+			path = "Planets Objc2";
+			sourceTree = "<group>";
+		};
+		82CC082F219B7FE8008B78C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				82CC0819219B7FDC008B78C7 /* AppDelegate.h */,
 				82CC081A219B7FDC008B78C7 /* AppDelegate.m */,
-				82CC081C219B7FDC008B78C7 /* ViewController.h */,
-				82CC081D219B7FDC008B78C7 /* ViewController.m */,
-				82CC081F219B7FDC008B78C7 /* Main.storyboard */,
 				82CC0822219B7FDD008B78C7 /* Assets.xcassets */,
-				82CC0824219B7FDD008B78C7 /* LaunchScreen.storyboard */,
 				82CC0827219B7FDD008B78C7 /* Info.plist */,
 				82CC0828219B7FDD008B78C7 /* main.m */,
 			);
-			path = "Planets Objc2";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		82CC0833219B8028008B78C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82CC0830219B8025008B78C7 /* LSPlanet.h */,
+				82CC0831219B8025008B78C7 /* LSPlanet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82CC0837219B81AA008B78C7 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82CC0834219B81A6008B78C7 /* LSPlanetController.h */,
+				82CC0835219B81A6008B78C7 /* LSPlanetController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		82CC0838219B8329008B78C7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				82CC081F219B7FDC008B78C7 /* Main.storyboard */,
+				82CC0824219B7FDD008B78C7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +209,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CC081E219B7FDC008B78C7 /* ViewController.m in Sources */,
 				82CC0829219B7FDD008B78C7 /* main.m in Sources */,
+				82CC0832219B8025008B78C7 /* LSPlanet.m in Sources */,
+				82C7B3C2219B84180013ADB5 /* LSPlanetCollectionViewController.m in Sources */,
+				82CC0836219B81A6008B78C7 /* LSPlanetController.m in Sources */,
+				82C7B3CA219B844B0013ADB5 /* LSSettingsViewController.m in Sources */,
 				82CC081B219B7FDC008B78C7 /* AppDelegate.m in Sources */,
+				82C7B3C6219B84320013ADB5 /* LSPlanetCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Planets Objc2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Planets Objc2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
