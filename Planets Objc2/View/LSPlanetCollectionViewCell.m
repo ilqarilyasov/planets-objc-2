@@ -7,7 +7,24 @@
 //
 
 #import "LSPlanetCollectionViewCell.h"
+#import "LSPlanet.h"
+
+@interface LSPlanetCollectionViewCell()
+
+@property (weak, nonatomic) IBOutlet UIImageView *planetImageView;
+@property (weak, nonatomic) IBOutlet UILabel *planetNameLabel;
+
+
+@end
 
 @implementation LSPlanetCollectionViewCell
+
+- (void)updateViews
+{
+    if (self.planet) {
+        self.planetImageView.image = self.planet.image;
+        self.planetNameLabel.text = self.planet.name;
+    }
+}
 
 @end

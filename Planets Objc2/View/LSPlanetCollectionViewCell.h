@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class LSPlanet;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LSPlanetCollectionViewCell : UICollectionViewCell
+
+- (void)updateViews;
+
+@property (nonatomic, strong) LSPlanet *planet;
 
 @end
 
